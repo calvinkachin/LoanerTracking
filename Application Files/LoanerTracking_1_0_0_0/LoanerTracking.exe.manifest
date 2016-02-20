@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LoanerTracking.exe" version="1.0.0.0" publicKeyToken="7c6bb9374aa03fb3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LoanerTracking" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LoanerTracking.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoanerTracking.exe" size="286144">
+      <assemblyIdentity name="LoanerTracking" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uKab/NZilALkxukbqk3WofBkr0EAs7AlHfMKpaGJsi0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LoanerTracking.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CALVIN-PC\Calvin" issuerKeyHash="8f5aa9e016976831811ccf027a134dee98f10c1f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vlMWQbjJqrGEJhIw3O40Yig2CJA99PXSj7KVPOdY/OM=</DigestValue></Reference></SignedInfo><SignatureValue>osK7WPsqWwtbfrIdDchzhwD7xtXjoRZpQlgGDhfAGiLfAoCw/+lCmAR402/8wpgIqMGYh+IXyuSnze2ZU0t7T/PB13vezsuAg85k5Ywqckc+5ej2IBs3VxaV4kIt8GUZQ4Hgjsv3GX932t95FOw4P0o7K1Nw60k7XYOsBx8lmhc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wE2p0DtVTJbkYbHm0Ynhl1nLymsLw0hDnw7aNWXSudm1lraGYxkavBT5vxJNeOQ05M8589rQ24icD8SW0PdnnN812PLVto9jB5e9zY1T5vghrbl3MP4p4NCf3mhINGtHyPOwbmJzZUySO3Ug4L5r7DSCgKw9ZZukx0uoHPADMwc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e3fc58e73c95b28fd2f5f43d900836286234eedc30122684b1aac9b8411653be" Description="" Url=""><as:assemblyIdentity name="LoanerTracking.exe" version="1.0.0.0" publicKeyToken="7c6bb9374aa03fb3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CALVIN-PC\Calvin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p+hdUch1sxYUb/evorI56yVyXgJqgyUZfqogmktaLrI=</DigestValue></Reference></SignedInfo><SignatureValue>Q8sw9m/+q29eGeqUcs0gJwAZ+Q5iKIGImLbwVu/3Yyz+gt4ZXpyROJacI73q/xIOgJU9uy5Os/GPTJS+2doIkTY6GwkL97xNnVDRcQ9mhZELPTsBxRrqbBADP5tLearfy3L8p067Za+7/YK7FnNYTTCvrj6iAe2XG0OlWcNT8TM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wE2p0DtVTJbkYbHm0Ynhl1nLymsLw0hDnw7aNWXSudm1lraGYxkavBT5vxJNeOQ05M8589rQ24icD8SW0PdnnN812PLVto9jB5e9zY1T5vghrbl3MP4p4NCf3mhINGtHyPOwbmJzZUySO3Ug4L5r7DSCgKw9ZZukx0uoHPADMwc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQfBAPwBa+n7NF+E1FwFNjhTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQwBBAEwAVgBJAE4ALQBQAEMAXABDAGEAbAB2AGkAbjAeFw0xNTEyMjcwNTQ0MjJaFw0xNjEyMjYxMTQ0MjJaMCsxKTAnBgNVBAMeIABDAEEATABWAEkATgAtAFAAQwBcAEMAYQBsAHYAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDATanQO1VMluRhsebRieGXWcvKawvDSEOfDto1ZdK52bWWtoZjGRq8FPm/Ek145DTkzznz2tDbiJwPxJbQ92ec3zXY8tW2j2MHl73NjVPm+CGtuXcw/ing0J/eaEg0a0fI87BuYnNlTJI7dSDgvmvsNIKArD1lm6THS6gc8AMzBwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJpjbOEjnCb4cDjv3EKhh47ps/MJ8L5gk2T0suNTy4JvV+YT1hgGwHtczJA9O6lFD6MYiKYF4Lj7Rs+8E7ncWVVMMaizJTHAzXa6rFqMDifFurRW+0R99Z/sC/jCbB2gspgyuwt93WGB3Crl1V37Eaow4Uz87w7fIP5uW/bI7Qu/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnOut = new System.Windows.Forms.Button();
@@ -1866,7 +1866,7 @@
             this.lblLocked3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLocked3.Location = new System.Drawing.Point(22, 93);
             this.lblLocked3.Name = "lblLocked3";
-            this.lblLocked3.Size = new System.Drawing.Size(1052, 32);
+            this.lblLocked3.Size = new System.Drawing.Size(1047, 32);
             this.lblLocked3.TabIndex = 32;
             this.lblLocked3.Text = "Loaner Management is available only to \'Technician\' and \'Admin\' type users.";
             this.ttHelp.SetToolTip(this.lblLocked3, "Only Techs and Admins can change these settings");
@@ -2476,7 +2476,7 @@
             this.lblLocked4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLocked4.Location = new System.Drawing.Point(22, 93);
             this.lblLocked4.Name = "lblLocked4";
-            this.lblLocked4.Size = new System.Drawing.Size(1149, 32);
+            this.lblLocked4.Size = new System.Drawing.Size(1147, 32);
             this.lblLocked4.TabIndex = 33;
             this.lblLocked4.Text = "Customer Management is available only to \'Phone Support\' and \'Admin\' type users.";
             this.ttHelp.SetToolTip(this.lblLocked4, "Only Techs and Admins can change these settings");
@@ -2907,7 +2907,7 @@
             this.lblLocked2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLocked2.Location = new System.Drawing.Point(22, 93);
             this.lblLocked2.Name = "lblLocked2";
-            this.lblLocked2.Size = new System.Drawing.Size(1047, 32);
+            this.lblLocked2.Size = new System.Drawing.Size(1042, 32);
             this.lblLocked2.TabIndex = 31;
             this.lblLocked2.Text = "Loaner Operations are available only to \'Technician\' and \'Admin\' type users.";
             this.ttHelp.SetToolTip(this.lblLocked2, "Only Techs and Admins can change these settings");
@@ -2933,7 +2933,7 @@
             this.grpOperation.Controls.Add(this.radPM);
             this.grpOperation.Location = new System.Drawing.Point(6, 12);
             this.grpOperation.Name = "grpOperation";
-            this.grpOperation.Size = new System.Drawing.Size(220, 531);
+            this.grpOperation.Size = new System.Drawing.Size(151, 531);
             this.grpOperation.TabIndex = 0;
             this.grpOperation.TabStop = false;
             this.grpOperation.Text = "1. Select Operation";
@@ -3018,8 +3018,6 @@
             // 
             // grpOperations
             // 
-            this.grpOperations.Controls.Add(this.lblPending);
-            this.grpOperations.Controls.Add(this.lstPending);
             this.grpOperations.Controls.Add(this.lblOpAccessories);
             this.grpOperations.Controls.Add(this.dgvAccessories);
             this.grpOperations.Controls.Add(this.lblCopy);
@@ -3039,9 +3037,9 @@
             this.grpOperations.Controls.Add(this.label15);
             this.grpOperations.Controls.Add(this.txtOpSN);
             this.grpOperations.Enabled = false;
-            this.grpOperations.Location = new System.Drawing.Point(232, 12);
+            this.grpOperations.Location = new System.Drawing.Point(163, 12);
             this.grpOperations.Name = "grpOperations";
-            this.grpOperations.Size = new System.Drawing.Size(973, 531);
+            this.grpOperations.Size = new System.Drawing.Size(1062, 531);
             this.grpOperations.TabIndex = 1;
             this.grpOperations.TabStop = false;
             this.grpOperations.Text = "2. Fill";
@@ -3049,7 +3047,7 @@
             // lblPending
             // 
             this.lblPending.AutoSize = true;
-            this.lblPending.Location = new System.Drawing.Point(469, 153);
+            this.lblPending.Location = new System.Drawing.Point(426, 9);
             this.lblPending.Name = "lblPending";
             this.lblPending.Size = new System.Drawing.Size(132, 16);
             this.lblPending.TabIndex = 28;
@@ -3063,9 +3061,9 @@
             this.lstPending.ForeColor = System.Drawing.Color.DodgerBlue;
             this.lstPending.FormattingEnabled = true;
             this.lstPending.ItemHeight = 16;
-            this.lstPending.Location = new System.Drawing.Point(469, 175);
+            this.lstPending.Location = new System.Drawing.Point(426, 31);
             this.lstPending.Name = "lstPending";
-            this.lstPending.Size = new System.Drawing.Size(150, 48);
+            this.lstPending.Size = new System.Drawing.Size(132, 48);
             this.lstPending.TabIndex = 27;
             this.lstPending.Visible = false;
             this.lstPending.SelectedIndexChanged += new System.EventHandler(this.lstPending_SelectedIndexChanged);
@@ -3073,7 +3071,7 @@
             // lblOpAccessories
             // 
             this.lblOpAccessories.AutoSize = true;
-            this.lblOpAccessories.Location = new System.Drawing.Point(466, 230);
+            this.lblOpAccessories.Location = new System.Drawing.Point(464, 256);
             this.lblOpAccessories.Name = "lblOpAccessories";
             this.lblOpAccessories.Size = new System.Drawing.Size(153, 16);
             this.lblOpAccessories.TabIndex = 26;
@@ -3085,15 +3083,14 @@
             this.dgvAccessories.AllowUserToAddRows = false;
             this.dgvAccessories.AllowUserToDeleteRows = false;
             this.dgvAccessories.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dgvAccessories.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvAccessories.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAccessories.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Accessory,
             this.Serial});
-            this.dgvAccessories.Location = new System.Drawing.Point(469, 249);
+            this.dgvAccessories.Location = new System.Drawing.Point(467, 275);
             this.dgvAccessories.MultiSelect = false;
             this.dgvAccessories.Name = "dgvAccessories";
-            this.dgvAccessories.Size = new System.Drawing.Size(415, 152);
+            this.dgvAccessories.Size = new System.Drawing.Size(368, 152);
             this.dgvAccessories.TabIndex = 25;
             this.dgvAccessories.Visible = false;
             // 
@@ -3109,8 +3106,8 @@
             // Serial
             // 
             this.Serial.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Serial.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Serial.DefaultCellStyle = dataGridViewCellStyle4;
             this.Serial.HeaderText = "Serial Number";
             this.Serial.Name = "Serial";
             this.Serial.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
@@ -3118,11 +3115,11 @@
             // lblCopy
             // 
             this.lblCopy.AutoSize = true;
-            this.lblCopy.Location = new System.Drawing.Point(469, 423);
+            this.lblCopy.Location = new System.Drawing.Point(420, 439);
             this.lblCopy.Name = "lblCopy";
-            this.lblCopy.Size = new System.Drawing.Size(80, 16);
+            this.lblCopy.Size = new System.Drawing.Size(40, 16);
             this.lblCopy.TabIndex = 3;
-            this.lblCopy.Text = "                        ";
+            this.lblCopy.Text = "Copy";
             // 
             // btnClearOp
             // 
@@ -3131,7 +3128,7 @@
             this.btnClearOp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearOp.ForeColor = System.Drawing.Color.White;
-            this.btnClearOp.Location = new System.Drawing.Point(230, 471);
+            this.btnClearOp.Location = new System.Drawing.Point(181, 471);
             this.btnClearOp.Name = "btnClearOp";
             this.btnClearOp.Size = new System.Drawing.Size(117, 28);
             this.btnClearOp.TabIndex = 24;
@@ -3142,12 +3139,12 @@
             // 
             // txtCopy
             // 
-            this.txtCopy.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtCopy.BackColor = System.Drawing.Color.Gainsboro;
             this.txtCopy.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCopy.Location = new System.Drawing.Point(469, 442);
+            this.txtCopy.Location = new System.Drawing.Point(420, 458);
             this.txtCopy.Multiline = true;
             this.txtCopy.Name = "txtCopy";
-            this.txtCopy.Size = new System.Drawing.Size(236, 57);
+            this.txtCopy.Size = new System.Drawing.Size(415, 42);
             this.txtCopy.TabIndex = 2;
             // 
             // lblSuccess3
@@ -3155,7 +3152,7 @@
             this.lblSuccess3.AutoSize = true;
             this.lblSuccess3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSuccess3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSuccess3.Location = new System.Drawing.Point(6, 504);
+            this.lblSuccess3.Location = new System.Drawing.Point(177, 507);
             this.lblSuccess3.Name = "lblSuccess3";
             this.lblSuccess3.Size = new System.Drawing.Size(206, 24);
             this.lblSuccess3.TabIndex = 23;
@@ -3176,7 +3173,7 @@
             // 
             this.chkOpRepair.AutoSize = true;
             this.chkOpRepair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkOpRepair.Location = new System.Drawing.Point(230, 440);
+            this.chkOpRepair.Location = new System.Drawing.Point(181, 440);
             this.chkOpRepair.Name = "chkOpRepair";
             this.chkOpRepair.Size = new System.Drawing.Size(130, 20);
             this.chkOpRepair.TabIndex = 6;
@@ -3226,13 +3223,15 @@
             // 
             // grpOpSR
             // 
+            this.grpOpSR.Controls.Add(this.lblPending);
             this.grpOpSR.Controls.Add(this.label33);
+            this.grpOpSR.Controls.Add(this.lstPending);
             this.grpOpSR.Controls.Add(this.txtOpLoaner);
             this.grpOpSR.Controls.Add(this.label34);
             this.grpOpSR.Controls.Add(this.txtOpRepair);
             this.grpOpSR.Location = new System.Drawing.Point(41, 163);
             this.grpOpSR.Name = "grpOpSR";
-            this.grpOpSR.Size = new System.Drawing.Size(422, 91);
+            this.grpOpSR.Size = new System.Drawing.Size(576, 91);
             this.grpOpSR.TabIndex = 1;
             this.grpOpSR.TabStop = false;
             this.grpOpSR.Text = "Service Request Information";
@@ -3362,7 +3361,7 @@
             this.btnOpConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOpConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpConfirm.ForeColor = System.Drawing.Color.White;
-            this.btnOpConfirm.Location = new System.Drawing.Point(353, 470);
+            this.btnOpConfirm.Location = new System.Drawing.Point(304, 470);
             this.btnOpConfirm.Name = "btnOpConfirm";
             this.btnOpConfirm.Size = new System.Drawing.Size(110, 30);
             this.btnOpConfirm.TabIndex = 7;
@@ -3411,7 +3410,7 @@
             this.lblLocked5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLocked5.Location = new System.Drawing.Point(22, 93);
             this.lblLocked5.Name = "lblLocked5";
-            this.lblLocked5.Size = new System.Drawing.Size(1090, 32);
+            this.lblLocked5.Size = new System.Drawing.Size(1087, 32);
             this.lblLocked5.TabIndex = 34;
             this.lblLocked5.Text = "Request Generator is available only to \'Phone Support\' and \'Admin\' type users.";
             this.ttHelp.SetToolTip(this.lblLocked5, "Only Techs and Admins can change these settings");
@@ -4473,13 +4472,13 @@
             this.chartData.BackColor = System.Drawing.Color.Transparent;
             this.chartData.BorderlineColor = System.Drawing.Color.Black;
             this.chartData.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea1.Name = "ChartArea1";
-            this.chartData.ChartAreas.Add(chartArea1);
+            chartArea4.Name = "ChartArea1";
+            this.chartData.ChartAreas.Add(chartArea4);
             this.chartData.Location = new System.Drawing.Point(229, 28);
             this.chartData.Name = "chartData";
-            series1.ChartArea = "ChartArea1";
-            series1.Name = "Series1";
-            this.chartData.Series.Add(series1);
+            series4.ChartArea = "ChartArea1";
+            series4.Name = "Series1";
+            this.chartData.Series.Add(series4);
             this.chartData.Size = new System.Drawing.Size(762, 512);
             this.chartData.TabIndex = 31;
             this.chartData.Text = "chart1";
@@ -4813,7 +4812,7 @@
             this.lblLocked.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblLocked.Location = new System.Drawing.Point(22, 93);
             this.lblLocked.Name = "lblLocked";
-            this.lblLocked.Size = new System.Drawing.Size(683, 32);
+            this.lblLocked.Size = new System.Drawing.Size(681, 32);
             this.lblLocked.TabIndex = 30;
             this.lblLocked.Text = "Settings are available only to \'Admin\' type users.";
             this.ttHelp.SetToolTip(this.lblLocked, "We don\'t want your kind around these parts.");

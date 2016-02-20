@@ -1859,15 +1859,16 @@ namespace LoanerTracking
                             if (radSend.Checked != true)
                             {
                                 txtOpCustomer.Text = MasterList[3][i];
-                                 txtOpAccnt.Text = MasterList[14][i];
+                                txtOpAccnt.Text = MasterList[14][i];
                             }
-                            txtOpLoaner.Text = MasterList[4][i];
+                            
 
                             if (radReceiving.Checked == true)
                             {
                                 txtOpRepair.Text = MasterList[5][i];
                                 txtOpCustomer.Text = MasterList[3][i];
                                 txtOpAccnt.Text = MasterList[14][i];
+                                txtOpLoaner.Text = MasterList[4][i];
                             }
                             txtOpNotes.Text = MasterList[13][i];
                             return;
@@ -6397,7 +6398,7 @@ namespace LoanerTracking
             acc = acc.TrimEnd('•');
 
             var writer = new StreamWriter(@"T:\\! LOANER SR FOLDERS\\" + txtGenLoanerSR.Text + "\\" + txtGenLoanerSR.Text + "_OutgoingInventory.txt");
-            writer.WriteLine(txtGenLoanerSR.Text+"<"+txtGenCompSR.Text+"<" + txtGenAccountNum.Text + "<" + txtGenCustName.Text);
+            writer.WriteLine("<"+txtGenCompSR.Text+"<" + txtGenAccountNum.Text + "<" + txtGenCustName.Text);
             writer.WriteLine(data + "<<<<<<<<<<<<<<"+ txtGenComments.Text);
             writer.Close();
 
